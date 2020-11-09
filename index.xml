@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Decay Laboratory</title>
-    <link>http://sheepsui-coder.github.io/</link>
+    <link>https://sheepsui-coder.github.io/</link>
     <description>Recent content on Decay Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://sheepsui-coder.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sheepsui-coder.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>http://sheepsui-coder.github.io/about/</link>
+      <link>https://sheepsui-coder.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://sheepsui-coder.github.io/about/</guid>
+      <guid>https://sheepsui-coder.github.io/about/</guid>
       <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
 Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
     </item>
     
     <item>
       <title>elements</title>
-      <link>http://sheepsui-coder.github.io/fiction/elements/</link>
+      <link>https://sheepsui-coder.github.io/fiction/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://sheepsui-coder.github.io/fiction/elements/</guid>
+      <guid>https://sheepsui-coder.github.io/fiction/elements/</guid>
       <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
 Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
     </item>
     
     <item>
       <title>elements</title>
-      <link>http://sheepsui-coder.github.io/my-life/elements/</link>
+      <link>https://sheepsui-coder.github.io/my-life/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://sheepsui-coder.github.io/my-life/elements/</guid>
+      <guid>https://sheepsui-coder.github.io/my-life/elements/</guid>
       <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
 Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
     </item>
