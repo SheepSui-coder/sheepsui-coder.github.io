@@ -2,13 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on Decay Laboratory</title>
-    <link>https://sheepsui-coder.github.io/technology/python/</link>
+    <link>http://sheepsui-coder.github.io/technology/python/</link>
     <description>Recent content in python on Decay Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     
-	<atom:link href="https://sheepsui-coder.github.io/technology/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sheepsui-coder.github.io/technology/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python数据挖掘常用函数整理</title>
+      <link>http://sheepsui-coder.github.io/technology/python/python%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E6%95%B4%E7%90%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://sheepsui-coder.github.io/technology/python/python%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E6%95%B4%E7%90%86/</guid>
+      <description>本文对基础的数据挖掘函数进行了一些整理,不涉及具体算法实现. 主要涉及的库有:Numpy, Pandas
+ 目录  目录 数据导入 DataFrame基础操作 数据探索  数据导入 xlsx文件 主要使用函数:
+pd.read_excel() #路径前面可加 r , 作用是转义,防止\等符号 主要参数:
+   参数 作用     sheet_name 需要导入数据的工作表表名   header 指定第几行作为表头,若没有表头header=None   names 指定列名称   index_col 指定行索引   usecols 需要读取的列,可以使用列序也可以使用列名   skiprows 需要忽略的行数 (0开始)   nrows 需要读取的行数(从文件头开始)   skip_footer 需要忽略的行数(从最后一行开始)   encoding 编码方式    CSV文件和TXT文件 主要使用函数:</description>
+    </item>
     
   </channel>
 </rss>

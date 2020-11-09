@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>technology on Decay Laboratory</title>
-    <link>https://sheepsui-coder.github.io/technology/</link>
+    <link>http://sheepsui-coder.github.io/technology/</link>
     <description>Recent content in technology on Decay Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     
-	<atom:link href="https://sheepsui-coder.github.io/technology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sheepsui-coder.github.io/technology/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

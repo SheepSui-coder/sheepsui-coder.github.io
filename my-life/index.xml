@@ -2,22 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My life on Decay Laboratory</title>
-    <link>https://sheepsui-coder.github.io/my-life/</link>
+    <link>http://sheepsui-coder.github.io/my-life/</link>
     <description>Recent content in My life on Decay Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     
-	<atom:link href="https://sheepsui-coder.github.io/my-life/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sheepsui-coder.github.io/my-life/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>elements</title>
-      <link>https://sheepsui-coder.github.io/my-life/elements/</link>
+      <title>Shark</title>
+      <link>http://sheepsui-coder.github.io/my-life/shark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sheepsui-coder.github.io/my-life/elements/</guid>
-      <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
-Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
+      <guid>http://sheepsui-coder.github.io/my-life/shark/</guid>
+      <description>写于：2020-5-20 00:00
+ ​　记忆中的夏日冷到发颤。
+　橙色阳光，淡蓝色泳池和深蓝色瓷砖，凝结着水珠的玻璃杯里发泡的汽水裹着冰块轻轻晃动，红白旋纹的吸管穿过青色的柠檬片插进杯中，时间宛若死掉的蛞蝓瘫倒在奶白色茶几上，咸咸的味道在空气中弥漫，一切东西都没有褶皱，只有一层滑滑的朦胧。泳池中漂浮长得像甜甜圈的泳圈和赤裸的身体，他怔怔的望着湛蓝的天空，这炎热的夏日试图把所有的东西都融化，但是他却越发的感到寒冷，他绝望的望着夏日尽处宛如一头坠入大海。
+　夏天的一切都那么的不真实，暑假，空调，西瓜，遮阳帽，流动的空气，睡懒觉的猫。她就像温吞吞的谎言，感觉自己宛若温水中的青蛙，当夏日结束之时我想脱离这已经滚烫的水时，我已经没法逃离。夏日宛若下沉，曾漂浮在海面上，感受阳光和海的味道，随着时间的流逝却慢慢的沉入海里，阳光越来越小，太阳越来越远，夏日结束的时刻，沉入海底毫无阳光，最终永无天日，万劫不复。
+　恋情是夏日的谎言，而夏日的尽头也是恋情的结束。随着温度的褪去，潮水声也渐渐的远去，沙滩褪去色彩，彩虹变得模糊。
+　夏日就像发烧一样。
+　那也是个夏天，少年在讲台上宣告着世界全是虚伪与谎言。“这个世界自相矛盾，而人类则自欺欺人，我们的一切理解与沟通充满了偏差，相信中掺杂着怀疑，爱里掺杂着自私，一切都暧昧而可悲。”同学和老师投来可悲的眼神，只记得阳光好刺眼，蝉叫声好吵。
+　我讨厌爱情，因为她美好。每个人都空虚的追求着她美好，用自己的方式玷污这份纯粹。他们的爱情会死去也会重生，既无私又自私，时而肉欲时而神圣，充满了荷尔蒙和眼泪。我不想要这样的东西。如果一定要这般去玷污我心中的那份纯粹，我宁愿在水边当一朵溺死水中的水仙，连神明的爱也永远拒绝。
+　这个世界的真相是，夏日会结束，谎言会揭穿，爱情会死去。Loves a shark. If it doesn’t go forward, it will die.他们一次次在夏日坠入恋情又一次次在夏日尽头扼住她的咽喉，却殊不知扼住的是自己，通过杀死互相的某部分换取廉价的心跳，冠以爱情之名，以此为食仿佛失去就会死。爱情只有一次，我如此虔诚的相信，所以我发誓我不再坠入恋情。
+　但是我还是坠入了恋情里。
+　她像夏天一样，就好像皮肤上还凝结着晶莹剔透的海水，眼角总带着些许海的味道。一切都那么不真实，就像空调，西瓜，遮阳帽，流动的空气，睡懒觉的猫。一旦恋上，便一头跳入了海里，温吞吞的海水让人不断的下沉，我知道我要被鲨鱼吃得精光也知道夏日终有尽头。
+　我幸福而恐惧，害怕爱情的逝去，害怕夏日的尽头。无论如何回忆只能记起冰冷的蓝色，我感觉非常的寒冷，不断的在水中颤抖着看着天空的光芒越来越小。我的肺被海水填满，里面全是温温的味道，那是我最害怕也是最熟悉的味道，咸咸的泪水的味道还有谎言的味道。
+　我想让爱情闪光，想让绝望开出花朵。
+　我已是温水中的青蛙，无处可逃。我已经无法生活在陆地，也无法通过空气呼吸，我离不开你，也无法不去爱你。无论眼泪还是笑全部都那么好看，让天空碎成两半。在温暖中瑟瑟发抖，在幸福中惶惶不可终日，在海中下沉痴痴的望着那遥远的太阳。
+　如果温度褪去那便用37度的体温去温暖，潮水声若是远去便径直走向海的中央，沙滩也要失去色彩，彩虹也要变得模糊，那就用由我用画笔重新书画，如果爱情是谎言，那我便发誓永远虚伪，夏日若必将逝去，那就请和我一起旅行，搬去一个个的城市，永远的活在夏天里。
+　所以请在寒冷的夏日里抱紧我，因为我好爱你。</description>
     </item>
     
   </channel>

@@ -2,42 +2,105 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Decay Laboratory</title>
-    <link>https://sheepsui-coder.github.io/</link>
+    <link>http://sheepsui-coder.github.io/</link>
     <description>Recent content on Decay Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     
-	<atom:link href="https://sheepsui-coder.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sheepsui-coder.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>https://sheepsui-coder.github.io/about/</link>
+      <link>http://sheepsui-coder.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sheepsui-coder.github.io/about/</guid>
-      <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
-Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
+      <guid>http://sheepsui-coder.github.io/about/</guid>
+      <description>首先，欢迎你来到我的博客。不论你是通过何种方式来到这里，我都非常欢迎你的到来。
+　这个博客不是为了记录而创建的，而是为了堆砌。这么说不知道你能不能理解。
+　我相信把他们堆砌在这里（在我还算年轻的时候）是一件还不坏的事情。
+　博客里会记录我的一些学习的笔记，同时也会记录一些零零碎碎的文字，大多都是写给我爱人的。要是嫌肉麻可注意不要点进去。
+　最后，如果你喜欢这个博客，也请不要告诉别人，毕竟这对于我来说是个比较私密的东西吧。
+　谢谢。</description>
     </item>
     
     <item>
-      <title>elements</title>
-      <link>https://sheepsui-coder.github.io/fiction/elements/</link>
+      <title>python数据挖掘常用函数整理</title>
+      <link>http://sheepsui-coder.github.io/technology/python/python%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E6%95%B4%E7%90%86/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sheepsui-coder.github.io/fiction/elements/</guid>
-      <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
-Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
+      <guid>http://sheepsui-coder.github.io/technology/python/python%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E6%95%B4%E7%90%86/</guid>
+      <description>本文对基础的数据挖掘函数进行了一些整理,不涉及具体算法实现. 主要涉及的库有:Numpy, Pandas
+ 目录  目录 数据导入 DataFrame基础操作 数据探索  数据导入 xlsx文件 主要使用函数:
+pd.read_excel() #路径前面可加 r , 作用是转义,防止\等符号 主要参数:
+   参数 作用     sheet_name 需要导入数据的工作表表名   header 指定第几行作为表头,若没有表头header=None   names 指定列名称   index_col 指定行索引   usecols 需要读取的列,可以使用列序也可以使用列名   skiprows 需要忽略的行数 (0开始)   nrows 需要读取的行数(从文件头开始)   skip_footer 需要忽略的行数(从最后一行开始)   encoding 编码方式    CSV文件和TXT文件 主要使用函数:</description>
     </item>
     
     <item>
-      <title>elements</title>
-      <link>https://sheepsui-coder.github.io/my-life/elements/</link>
+      <title>Shark</title>
+      <link>http://sheepsui-coder.github.io/my-life/shark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sheepsui-coder.github.io/my-life/elements/</guid>
-      <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
-Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
+      <guid>http://sheepsui-coder.github.io/my-life/shark/</guid>
+      <description>写于：2020-5-20 00:00
+ ​　记忆中的夏日冷到发颤。
+　橙色阳光，淡蓝色泳池和深蓝色瓷砖，凝结着水珠的玻璃杯里发泡的汽水裹着冰块轻轻晃动，红白旋纹的吸管穿过青色的柠檬片插进杯中，时间宛若死掉的蛞蝓瘫倒在奶白色茶几上，咸咸的味道在空气中弥漫，一切东西都没有褶皱，只有一层滑滑的朦胧。泳池中漂浮长得像甜甜圈的泳圈和赤裸的身体，他怔怔的望着湛蓝的天空，这炎热的夏日试图把所有的东西都融化，但是他却越发的感到寒冷，他绝望的望着夏日尽处宛如一头坠入大海。
+　夏天的一切都那么的不真实，暑假，空调，西瓜，遮阳帽，流动的空气，睡懒觉的猫。她就像温吞吞的谎言，感觉自己宛若温水中的青蛙，当夏日结束之时我想脱离这已经滚烫的水时，我已经没法逃离。夏日宛若下沉，曾漂浮在海面上，感受阳光和海的味道，随着时间的流逝却慢慢的沉入海里，阳光越来越小，太阳越来越远，夏日结束的时刻，沉入海底毫无阳光，最终永无天日，万劫不复。
+　恋情是夏日的谎言，而夏日的尽头也是恋情的结束。随着温度的褪去，潮水声也渐渐的远去，沙滩褪去色彩，彩虹变得模糊。
+　夏日就像发烧一样。
+　那也是个夏天，少年在讲台上宣告着世界全是虚伪与谎言。“这个世界自相矛盾，而人类则自欺欺人，我们的一切理解与沟通充满了偏差，相信中掺杂着怀疑，爱里掺杂着自私，一切都暧昧而可悲。”同学和老师投来可悲的眼神，只记得阳光好刺眼，蝉叫声好吵。
+　我讨厌爱情，因为她美好。每个人都空虚的追求着她美好，用自己的方式玷污这份纯粹。他们的爱情会死去也会重生，既无私又自私，时而肉欲时而神圣，充满了荷尔蒙和眼泪。我不想要这样的东西。如果一定要这般去玷污我心中的那份纯粹，我宁愿在水边当一朵溺死水中的水仙，连神明的爱也永远拒绝。
+　这个世界的真相是，夏日会结束，谎言会揭穿，爱情会死去。Loves a shark. If it doesn’t go forward, it will die.他们一次次在夏日坠入恋情又一次次在夏日尽头扼住她的咽喉，却殊不知扼住的是自己，通过杀死互相的某部分换取廉价的心跳，冠以爱情之名，以此为食仿佛失去就会死。爱情只有一次，我如此虔诚的相信，所以我发誓我不再坠入恋情。
+　但是我还是坠入了恋情里。
+　她像夏天一样，就好像皮肤上还凝结着晶莹剔透的海水，眼角总带着些许海的味道。一切都那么不真实，就像空调，西瓜，遮阳帽，流动的空气，睡懒觉的猫。一旦恋上，便一头跳入了海里，温吞吞的海水让人不断的下沉，我知道我要被鲨鱼吃得精光也知道夏日终有尽头。
+　我幸福而恐惧，害怕爱情的逝去，害怕夏日的尽头。无论如何回忆只能记起冰冷的蓝色，我感觉非常的寒冷，不断的在水中颤抖着看着天空的光芒越来越小。我的肺被海水填满，里面全是温温的味道，那是我最害怕也是最熟悉的味道，咸咸的泪水的味道还有谎言的味道。
+　我想让爱情闪光，想让绝望开出花朵。
+　我已是温水中的青蛙，无处可逃。我已经无法生活在陆地，也无法通过空气呼吸，我离不开你，也无法不去爱你。无论眼泪还是笑全部都那么好看，让天空碎成两半。在温暖中瑟瑟发抖，在幸福中惶惶不可终日，在海中下沉痴痴的望着那遥远的太阳。
+　如果温度褪去那便用37度的体温去温暖，潮水声若是远去便径直走向海的中央，沙滩也要失去色彩，彩虹也要变得模糊，那就用由我用画笔重新书画，如果爱情是谎言，那我便发誓永远虚伪，夏日若必将逝去，那就请和我一起旅行，搬去一个个的城市，永远的活在夏天里。
+　所以请在寒冷的夏日里抱紧我，因为我好爱你。</description>
+    </item>
+    
+    <item>
+      <title>Stockholm Cat</title>
+      <link>http://sheepsui-coder.github.io/fiction/stockholm-cat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://sheepsui-coder.github.io/fiction/stockholm-cat/</guid>
+      <description>——献给第一个一起过的生日
+ 　她说要我给他带句话。
+　我说好，却始终不见他。回过神时，才意识到他或许根本不在世上。就像他从头到脚都是些山寨品牌一样，他的名字或许也是假的。
+　我找不到他，也带不去那句她想说的话。我只能一个人坐在长椅上望着海鸥在海上乱飞，听着他们咕咕咕的叫着。我不是她，我是讨厌他的，从出生那天起便如此。听说他出身时有9斤重，把他妈给辛苦坏了，结果孩子被晾一边，他爸一直担心的陪着他妈。据说他出生也不哭，打了半天硬是哭了几声草草结束。
+　长大懂事了反而就爱哭了，没有抢赢玩具会哭，被别的小朋友欺负了会哭，欺负了别的小朋友也会哭，于是乎眼睛可能是哭失了神，也就没什么色彩。长大了又老留着刘海，让人感觉晦气。
+　我说：“他可能一直都在和你撒谎，他骗了你。他偶尔流露出的情绪并不是爱而是孤独，他需要人陪，不一定是你。”我知道这些话对她可能有些残忍，但是我还是选择告诉她，因为我就是这么想他的。
+　他很离谱，荒唐，简直变态。我怀疑他或许一个人也没爱过，对家人总是摆着冷脸，对朋友则各种好话挂在嘴边。称兄道弟，患难与共，能够在心里骂着傻逼脸上陪朋友一起掉眼泪。事实上他可能连自己都不爱，比起自己可能连垃圾桶上的口香糖都更加有价值。
+　她却说：“即使被骗了一百次，也愿意相信一百零一次。”
+　我感觉很无语，他可能从来也没信她，她却还是相信着。她说：“爱的时候他是理由，然而痛苦的时候他也是坚持下去的理由。”
+　我知道的，他谁也不爱，谁也不信。他不会爱别人，所以也不相信自己会被爱，他的精神几乎一无所有，有的仅仅是如太阳般灼热的自负和如深渊般绝望的自卑。他寻求着肯定，逃避着否定，陷入永恒的矛盾。
+　他大概和她一样，喜欢疼痛。
+　和她道别时她说：“离别只是刚刚开始，想和你说的话还有很多，我不想把你忘掉。”
+　我不明白她为什么要对我说这些，我只觉得最好她忘掉。那些没能说出的话就应该烂在心里，或许有天它能成为成长的肥料。我向她挥手，她也向我挥手。
+　如果是他肯定不会和我这样老老实实告别。他总是不辞而别，说是不辞而别都轻微了。他总是失踪，总是消失。没人能找到到他，凭空蒸发，如烟消散，就像根本没有存在过一样。仿佛他的一切关系都能说断就断，人与人之间的关系对他似乎不存在价值，我甚至怀疑自始至终或许都是一个人。
+　我还是试着寻找他，在他上过学的教室，在他睡过午觉的篮球架，在他跑过步的操场，以及借过书的图书馆。所有人都告诉我见过他，却没人能告诉他在哪。他总在讨厌自己喜欢的东西，因此也总是强迫自己去喜欢一些讨厌的东西。无论是篮球架还是图书馆，其实都不像他的风格。
+　她曾经在图书馆工作过，帮学生找一找书，帮他们扫一扫书上的条形码把借书记录录入电脑。或许他们就是从这里认识的，或许也不是。但是他们肯定在这里遇到过，那她是他喜欢的东西还是讨厌的东西呢？他强迫自己做了什么？又或是强迫自己不去做什么？
+　我愈发的想见一见他，感觉只要见到了他，大家就可以解脱。没有一个人幸福的故事可以走向结局。或许结局悲惨，但是只有这样一切才可以过去，不然什么也过不去，也就哪里也无法到达。
+　于是我换了思路，既然熟悉的地方找不到，那就去遥远点的地方吧，撒哈拉的沙漠，喜马拉雅山，亚马逊森林神殿又或者是南极的冰川。然而，他也不在那。所有人都告诉我见过他，却也所有人都说不知他去了哪，连企鹅们也摇头。
+　我记得有人问：“看到屋顶想到了什么？”她说：“挡住了风雨，也挡住了阳光。”而他说了什么我却总是想不起来。如果让我回答，我可能会回答上吊的人或者跳楼的人，看你是在屋顶以下还是屋顶以上。
+　我不怎么痛苦，和他不同。他似乎永远在痛苦着，或许就是喜欢痛苦而已。我则相反，我很难痛苦，甚至很难痛。我不明白为什么他什么东西都能那么痛苦，也不知道他会不会为站着还是蹲着上厕所痛苦。不明白他短短人生在世，别扭什么劲。
+　其实或许我也明白，因为他总在矛盾。他的人生建立在永远无法到来的肯定和永远无法终结的否定的基础上，他其实可能只是懦弱而已。他害怕父母不爱他，他害怕同学不喜欢他，他也害怕她。
+　害怕她喜欢他，也害怕她不喜欢她。
+　所以我也不明白，他究竟是太不喜欢自己，还是太喜欢自己。还是说，这些本质上就没有区别。
+　在跑完整个地球后，我最后决定还是去一下月亮。无论是孤寂而明亮的月亮正面还是凹凸不平黑漆漆的背面，我都试着找了找，问过玉兔号，但是它也不理我，只是慢慢朝着什么方向前行。巨大的太阳离得很远，想到太阳时，我总会想起她，她笑起来时也有些向日葵的味道，但是也会让我想起翅膀着火的伊卡洛斯。而想到月亮，我则会想起他，他笑起来让人不寒而栗，但是也会让我想起加菜子说过的话。
+　月亮对软弱的人更加温柔。
+　他大概就想要这个东西吧，然而这个东西或许从来不存在，因为这个世界并不温柔。这么来说月亮可能真的很适合他。
+　然而正当整理好宇航服和玉兔号说完Sayonara，准备乘着太空船离开月亮之时，我看见了一个人影。一个穿着笨重宇航服的人坐在白白的软沙上望着蔚蓝的星球，那样子像极了某只莱卡狗。
+　我走到他面前，发现那就是他。于是我把我要说的话投影给他。
+　“她有话对你说。”
+　他不做回应。
+　“我给你带话而已。”
+　继续沉默。
+　“她说——”我想了想带着些命中注定的感觉，“她很想你。”
+　“她还要我问问你什么时候回来。”
+　“她等你很久了，她很喜欢你。”</description>
     </item>
     
   </channel>

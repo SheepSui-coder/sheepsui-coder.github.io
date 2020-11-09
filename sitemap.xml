@@ -3,51 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sheepsui-coder.github.io/about/</loc>
+    <loc>http://sheepsui-coder.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/categories/</loc>
+    <loc>http://sheepsui-coder.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/</loc>
+    <loc>http://sheepsui-coder.github.io/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/fiction/elements/</loc>
+    <loc>http://sheepsui-coder.github.io/fiction/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/my-life/elements/</loc>
+    <loc>http://sheepsui-coder.github.io/technology/linux/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/fiction/</loc>
+    <loc>http://sheepsui-coder.github.io/technology/matlab/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/technology/linux/</loc>
+    <loc>http://sheepsui-coder.github.io/my-life/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/technology/matlab/</loc>
+    <loc>http://sheepsui-coder.github.io/technology/python/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/my-life/</loc>
+    <loc>http://sheepsui-coder.github.io/technology/python/python%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E6%95%B4%E7%90%86/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/technology/python/</loc>
+    <loc>http://sheepsui-coder.github.io/my-life/shark/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/tags/</loc>
+    <loc>http://sheepsui-coder.github.io/fiction/stockholm-cat/</loc>
   </url>
   
   <url>
-    <loc>https://sheepsui-coder.github.io/technology/</loc>
+    <loc>http://sheepsui-coder.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://sheepsui-coder.github.io/technology/</loc>
   </url>
   
 </urlset>

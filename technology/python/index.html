@@ -4,10 +4,10 @@
     <title>python</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="https://sheepsui-coder.github.io/assets/css/main.css"/>
-    <noscript><link rel="stylesheet" href="https://sheepsui-coder.github.io/assets/css/noscript.css"/></noscript>
+    <link rel="stylesheet" href="http://sheepsui-coder.github.io/assets/css/main.css"/>
+    <noscript><link rel="stylesheet" href="http://sheepsui-coder.github.io/assets/css/noscript.css"/></noscript>
     <style>
-        :root{--site-background : url("https://sheepsui-coder.github.io/images/1.jpg")};
+        :root{--site-background : url("http://sheepsui-coder.github.io/images/2.jpg")};
     </style> 
     
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -28,13 +28,21 @@
                             <h1>python</h1>
                             
                             <p>
-                                A collection of posts
+                                数据挖掘、爬虫、深度学习等等
                             </p>
                             
                         </div>
                     </div>
                     <nav>
                         <ul>
+                            
+                                
+                                    
+                                        <li>
+                                            <a href="#chl0ag9u5pww5o2u5oyw5o6y5bi455so5ye95pww5pw055cg">python数据挖掘常用函数整理</a>
+                                        </li>
+                                    
+                                
                             
                         </ul>
                     </nav>
@@ -43,6 +51,274 @@
             
                 <div id="main">
 
+                    
+                        
+                            
+                                <article id="chl0ag9u5pww5o2u5oyw5o6y5bi455so5ye95pww5pw055cg">
+                                    <h2 class="major">python数据挖掘常用函数整理</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <blockquote>
+<p>本文对基础的数据挖掘函数进行了一些整理,不涉及具体算法实现.
+主要涉及的库有:Numpy, Pandas</p>
+</blockquote>
+<h2 id="目录">目录</h2>
+<ul>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5">数据导入</a></li>
+<li><a href="#DataFrame%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C">DataFrame基础操作</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2">数据探索</a></li>
+</ul>
+<h2 id="数据导入">数据导入</h2>
+<h3 id="xlsx文件">xlsx文件</h3>
+<p>主要使用函数:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>read_excel() <span style="color:#75715e">#路径前面可加 r , 作用是转义,防止\等符号</span>
+</code></pre></div><p>主要参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sheet_name</td>
+<td>需要导入数据的工作表表名</td>
+</tr>
+<tr>
+<td>header</td>
+<td>指定第几行作为表头,若没有表头header=None</td>
+</tr>
+<tr>
+<td>names</td>
+<td>指定列名称</td>
+</tr>
+<tr>
+<td>index_col</td>
+<td>指定行索引</td>
+</tr>
+<tr>
+<td>usecols</td>
+<td>需要读取的列,可以使用列序也可以使用列名</td>
+</tr>
+<tr>
+<td>skiprows</td>
+<td>需要忽略的行数 (0开始)</td>
+</tr>
+<tr>
+<td>nrows</td>
+<td>需要读取的行数(从文件头开始)</td>
+</tr>
+<tr>
+<td>skip_footer</td>
+<td>需要忽略的行数(从最后一行开始)</td>
+</tr>
+<tr>
+<td>encoding</td>
+<td>编码方式</td>
+</tr>
+</tbody>
+</table>
+<h3 id="csv文件和txt文件">CSV文件和TXT文件</h3>
+<p>主要使用函数:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>read_csv()
+</code></pre></div><p>主要参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sheet_name</td>
+<td>需要导入数据的工作表表名</td>
+</tr>
+<tr>
+<td>header</td>
+<td>指定第几行作为表头,若没有表头header=None</td>
+</tr>
+<tr>
+<td>names</td>
+<td>指定列名称</td>
+</tr>
+<tr>
+<td>index_col</td>
+<td>指定行索引</td>
+</tr>
+<tr>
+<td>usecols</td>
+<td>需要读取的列,可以使用列序也可以使用列名</td>
+</tr>
+<tr>
+<td>skiprows</td>
+<td>需要忽略的行数 (0开始)</td>
+</tr>
+<tr>
+<td>nrows</td>
+<td>需要读取的行数(从文件头开始)</td>
+</tr>
+<tr>
+<td>skip_footer</td>
+<td>需要忽略的行数(从最后一行开始)</td>
+</tr>
+<tr>
+<td>encoding</td>
+<td>编码方式 (utf-8, gbk, utf-8-sig)</td>
+</tr>
+<tr>
+<td>sep</td>
+<td>指定分割符,默认&rsquo;,',txt文件一般用&rsquo;\t'或者&rsquo; '</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mysql">mySQL</h3>
+<ul>
+<li>链接mysql</li>
+<li>通过sql语句查询并读入pandas中</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+<span style="color:#f92672">import</span> pymysql
+
+<span style="color:#75715e"># 导入sql文件</span>
+HOST <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;localhost&#39;</span>
+PORT <span style="color:#f92672">=</span> <span style="color:#ae81ff">3306</span>
+USER <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;root&#39;</span>
+PASSWORD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+DB <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+
+<span style="color:#75715e"># 查询语句</span>
+sql <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;&#34;select * from city&#34;&#34;&#34;</span>
+
+<span style="color:#75715e"># 1. 创建链接</span>
+eng <span style="color:#f92672">=</span> pymysql<span style="color:#f92672">.</span>connect(host<span style="color:#f92672">=</span>HOST, user<span style="color:#f92672">=</span>USER, port<span style="color:#f92672">=</span>PORT, password<span style="color:#f92672">=</span>PASSWORD, db<span style="color:#f92672">=</span>DB)
+
+<span style="color:#75715e"># 2. 执行sql查询语句</span>
+df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_sql(sql, eng)
+</code></pre></div><h2 id="dataframe基础操作">DataFrame基础操作</h2>
+<h3 id="索引切片">索引,切片</h3>
+<p>取出某列或多列:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data[<span style="color:#e6db74">&#39;列索引名&#39;</span>,<span style="color:#e6db74">&#39;列索引名&#39;</span>] <span style="color:#75715e">#或序号</span>
+data<span style="color:#f92672">.</span>A <span style="color:#75715e">#取出名字叫A的那一列</span>
+</code></pre></div><p>取出某一行或多行:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1</span>] <span style="color:#75715e">#取出第0行 </span>
+data[:<span style="color:#ae81ff">4</span>]   <span style="color:#75715e">#取出0,1,2,3行</span>
+</code></pre></div><p>对于行索引建议使用loc方法和iloc方法:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data<span style="color:#f92672">.</span>loc[<span style="color:#e6db74">&#39;行索引名&#39;</span>] <span style="color:#75715e"># loc方法使用索引名称</span>
+data<span style="color:#f92672">.</span>iloc[<span style="color:#ae81ff">0</span>]; <span style="color:#75715e">#取出第0行</span>
+</code></pre></div><p>y对于取出某行某列:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data<span style="color:#f92672">.</span>iloc[[<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>],[<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>] <span style="color:#75715e">#取出0,1,2行的2,3,4列</span>
+</code></pre></div><h3 id="修改数据">修改数据</h3>
+<p>直接通过索引的方式修改:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data<span style="color:#f92672">.</span>iloc[<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span><span style="color:#ae81ff">123</span> <span style="color:#75715e">#第4行2列修改为123</span>
+</code></pre></div><p>一个标量修改某一列,则会广播到该列的每一行:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data[<span style="color:#e6db74">&#39;索引&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span> <span style="color:#75715e"># 将这一列全变为15</span>
+</code></pre></div><p>也可以用列表来修改:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data<span style="color:#f92672">.</span>fl <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">5</span>) <span style="color:#75715e">#将名为fl的那一列换成 0,1,2,3,4</span>
+</code></pre></div><p>还可以使用一个Series:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">val <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>Series([<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>],index<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;a&#39;</span>,<span style="color:#e6db74">&#39;b&#39;</span>,<span style="color:#e6db74">&#39;c&#39;</span>])
+data<span style="color:#f92672">.</span>fl <span style="color:#f92672">=</span> val <span style="color:#75715e">#将fl列的a,b,c行分别变为1,2,3</span>
+</code></pre></div><p>修改索引,使用reindex方法:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data2 <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>reindex([<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]) <span style="color:#75715e">#将行索引改为1,2,4,5</span>
+s <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;aa&#39;</span>,<span style="color:#e6db74">&#39;bb&#39;</span>,<span style="color:#e6db74">&#39;cc&#39;</span>]
+data<span style="color:#f92672">.</span>reindex(columns<span style="color:#f92672">=</span>s) <span style="color:#75715e">#修改列索引为 &#39;aa&#39;,&#39;bb&#39;,&#39;cc&#39;</span>
+</code></pre></div><p>丢除指轴上的值,但是不改变原本的数据:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data<span style="color:#f92672">.</span>drop(<span style="color:#ae81ff">1</span>) <span style="color:#75715e">#丢除第1行</span>
+data<span style="color:#f92672">.</span>drop([<span style="color:#e6db74">&#39;A&#39;</span>],axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>) <span style="color:#75715e">#丢除索引名为A的列</span>
+</code></pre></div><h2 id="数据探索">数据探索</h2>
+<h3 id="描述统计">描述统计</h3>
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.head()</td>
+<td>展示前几行</td>
+</tr>
+<tr>
+<td>.sum()</td>
+<td>求和计算</td>
+</tr>
+<tr>
+<td>.mean()</td>
+<td>平均值计算</td>
+</tr>
+<tr>
+<td>.var()</td>
+<td>方差计算</td>
+</tr>
+<tr>
+<td>.std()</td>
+<td>标准差计算</td>
+</tr>
+<tr>
+<td>.corr(method='pearson&rsquo;)</td>
+<td>计算相关系数(可选pearson,kendall,spearman)</td>
+</tr>
+<tr>
+<td>.cov()</td>
+<td>协方差矩阵</td>
+</tr>
+<tr>
+<td>.describe()</td>
+<td>基本统计量</td>
+</tr>
+<tr>
+<td>.shape</td>
+<td>返回表大小</td>
+</tr>
+</tbody>
+</table>
+<h3 id="apply和applymap的使用">apply和applymap的使用</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>max() <span style="color:#f92672">-</span> x<span style="color:#f92672">.</span>min()
+data<span style="color:#f92672">.</span>apply(f)   <span style="color:#75715e">#对每一列进行操作</span>
+data<span style="color:#f92672">.</span>apply(f,axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)   <span style="color:#75715e">#对每一行进行操作</span>
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x):
+    <span style="color:#66d9ef">return</span> pd<span style="color:#f92672">.</span>Series([x<span style="color:#f92672">.</span>min(),x<span style="color:#f92672">.</span>max()],index<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;min&#39;</span>,<span style="color:#e6db74">&#39;max&#39;</span>])
+data<span style="color:#f92672">.</span>apply(f)
+
+format <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</span> x:<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">%.2f</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">%</span>x 
+data<span style="color:#f92672">.</span>applymap(format) <span style="color:#75715e">#元素级别的操作用applymap来实现</span>
+</code></pre></div><h3 id="排序和排名">排序和排名</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data<span style="color:#f92672">.</span>sort_values()
+</code></pre></div><p>相关参数设置:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>axis</td>
+<td>选择0,1;0为列,1为行</td>
+</tr>
+<tr>
+<td>ascending</td>
+<td>True为升,False为降,可以列表输入</td>
+</tr>
+<tr>
+<td>inplace</td>
+<td>是否用排序后的数据替换现有数据</td>
+</tr>
+<tr>
+<td>na_position</td>
+<td>last,first 缺失值排前面还是后面</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data<span style="color:#f92672">.</span>sort_index(by <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;a&#39;</span>) <span style="color:#75715e">#按a列进行排序</span>
+</code></pre></div>
+                                </article>
+                            
+                        
                     
 
                 </div>
@@ -61,10 +337,10 @@
 
 
     
-    <script src=https://sheepsui-coder.github.io/assets/js/jquery.min.js></script>
-    <script src=https://sheepsui-coder.github.io/assets/js/browser.min.js></script>
-    <script src=https://sheepsui-coder.github.io/assets/js/breakpoints.min.js></script>
-    <script src=https://sheepsui-coder.github.io/assets/js/util.js></script>
-    <script src=https://sheepsui-coder.github.io/assets/js/main.js></script>
+    <script src=http://sheepsui-coder.github.io/assets/js/jquery.min.js></script>
+    <script src=http://sheepsui-coder.github.io/assets/js/browser.min.js></script>
+    <script src=http://sheepsui-coder.github.io/assets/js/breakpoints.min.js></script>
+    <script src=http://sheepsui-coder.github.io/assets/js/util.js></script>
+    <script src=http://sheepsui-coder.github.io/assets/js/main.js></script>
 
 </html>
